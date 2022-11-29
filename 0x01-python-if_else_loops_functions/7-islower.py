@@ -1,3 +1,8 @@
 #!/usr/bin/python3
-def islower(c):
-        return (ord('a') <= ord(c) <= ord('z'))
+# islower - function to test if input is lower case
+# Return - True or False
+def islower(char):
+    if (ord(char) > 96 and ord(char) < 123):
+        return True
+    else:
+        False
