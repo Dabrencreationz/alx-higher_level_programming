@@ -4,6 +4,7 @@
 #include <floatobject.h>
 #include <string.h>
 
+
 /**
  * print_python_float - prints inflo about pYthon float.
  * @p: address of PyObject struct.
@@ -11,9 +12,8 @@
 void print_python_float(PyObject *p)
 {
 	double d;
-
-		setbuf(stdout, NULL);
-		printf("[.] float object info\n");
+	setbuf(stdout, NULL);
+	printf("[.] float object info\n");
 		if (strcmp(p->ob_type->tp_name, "float"))
 		{
 			printf(" [ERROR] Invalid Float Object\n");
