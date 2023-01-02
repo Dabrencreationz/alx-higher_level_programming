@@ -1,20 +1,3 @@
-
-Joshuauche
-/
-alx-higher_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-alx-higher_level_programming/0x08-python-more_classes/9-rectangle.py
-@Joshuauche
-Joshuauche returns a new Rectangle instance using classmethod
- 1 contributor
-Executable File  121 lines (105 sloc)  3.36 KB
 #!/usr/bin/python3
 """Define the height and width of a rectangle"""
 
