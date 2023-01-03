@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
-def magic_string():
+def magic_string(H=[]):
 
-    magic_string.count = getattr(magic_string, 'count', 0) + 1
+    H += ["BestSchool"]
 
-    return ", ".join(["BestSchool" for i in range(magic_string.count)])
+    return (", ".join(H))
