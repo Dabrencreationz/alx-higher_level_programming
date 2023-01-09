@@ -1,13 +1,9 @@
 #!/usr/bin/python3
 
 """
-
 Module for is_same_class method
 
 """
-
-
-
 
 
 def inherits_from(obj, a_class):
@@ -27,8 +23,6 @@ def inherits_from(obj, a_class):
         otherwise False
 
     """
-
-
 
     if issubclass(type(obj), a_class) and type(obj) != a_class:
 

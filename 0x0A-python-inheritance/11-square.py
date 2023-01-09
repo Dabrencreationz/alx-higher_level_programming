@@ -1,24 +1,17 @@
 #!/usr/bin/python3
 
 """
-
 Contains definition for the class Square
 
 """
 
 
-
 Rectangle = __import__('9-rectangle').Rectangle
-
-
-
 
 
 class Square(Rectangle):
 
     """Definition of class square that inherits from class Rectangle"""
-
-
 
     def __init__(self, size):
 
@@ -30,15 +23,11 @@ class Square(Rectangle):
 
         self.__size = size
 
-
-
     def area(self):
 
         """Method for computing Square area"""
 
         return self.__size ** 2
-
-
 
     def __str__(self):
 
