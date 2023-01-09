@@ -36,13 +36,9 @@ class Rectangle(BaseGeometry):
 
         """Returns are of the rectangle"""
 
-
-
         area = self.__width * self.__height
 
         return area
-
-
 
     def __str__(self):
 
