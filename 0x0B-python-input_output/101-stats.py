@@ -1,6 +1,5 @@
-#!/usr/bin/python3ads from standard input and computes metrics.
-
-"""
+#!/usr/bin/python3
+"""Reads from standard input and computes metrics.
 After every ten lines or the input of a keyboard interruption (CTRL + C),
 prints the following statistics:
     - Total file size up to that point.
@@ -20,7 +19,6 @@ def print_stats(size, status_codes):
 
 
 if __name__ == "__main__":
-
     import sys
 
     size = 0
